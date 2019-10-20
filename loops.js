@@ -28,5 +28,5 @@ function doWhileLoop(num) {
   do {
     "I run once regardless."
 
-  } while (i === 0 && 1)
+  } while (increaseI() < num )
 }
