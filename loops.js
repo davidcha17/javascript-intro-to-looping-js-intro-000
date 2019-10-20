@@ -26,7 +26,7 @@ function doWhileLoop(num) {
     return i
   }
   do {
-    "I run once regardless."
+    console.log("I run once regardless.")
 
   } while (increaseI() < num )
 }
